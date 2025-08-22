@@ -5,14 +5,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Layers, GitBranch, BookOpen, User, Building2 } from "lucide-react";
 import domainAxData from "@/data/domain-ax.json";
-
 const Index = () => {
   const handlePrint = () => {
     window.print();
   };
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Navigation onPrintPage={handlePrint} />
       
       {/* Hero Section */}
@@ -30,20 +27,7 @@ const Index = () => {
             <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto opacity-90">
               {domainAxData.hero.subtitle}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="text-lg" asChild>
-                <Link to="/levels">
-                  <Layers className="mr-2 h-5 w-5" />
-                  레벨 안내 보기
-                </Link>
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg border-white/30 text-white hover:bg-white/10" asChild>
-                <Link to="/transition-plan">
-                  <GitBranch className="mr-2 h-5 w-5" />
-                  전환 계획 확인
-                </Link>
-              </Button>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -151,8 +135,6 @@ const Index = () => {
           </Card>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
