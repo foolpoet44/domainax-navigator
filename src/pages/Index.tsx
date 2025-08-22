@@ -5,14 +5,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Layers, GitBranch, BookOpen, User, Building2 } from "lucide-react";
 import domainAxData from "@/data/domain-ax.json";
-
 const Index = () => {
   const handlePrint = () => {
     window.print();
   };
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Navigation onPrintPage={handlePrint} />
       
       {/* Hero Section */}
@@ -122,13 +119,10 @@ const Index = () => {
       <section className="py-16 bg-muted/50">
         <div className="container mx-auto px-4">
           <Card className="max-w-2xl mx-auto">
-            <CardHeader className="text-center">
-              <CardTitle>담당자 정보</CardTitle>
-              <CardDescription>Domain AX 인증 제도 관련 문의</CardDescription>
-            </CardHeader>
+            
             <CardContent className="text-center">
               <div className="space-y-3">
-                <div className="text-lg font-semibold">{domainAxData.contact.owner}</div>
+                
                 <div className="text-muted-foreground">{domainAxData.contact.unit}</div>
                 <Badge variant="secondary" className="mt-4">
                   담당자: {domainAxData.contact.owner}
@@ -138,8 +132,6 @@ const Index = () => {
           </Card>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
