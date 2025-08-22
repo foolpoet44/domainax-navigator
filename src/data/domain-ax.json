@@ -1,0 +1,247 @@
+{
+  "hero": {
+    "title": "기존의 Domain DX 인증 제도가 Domain AX 인증 제도로 변화합니다",
+    "subtitle": "AX 성공, 특히 생성형 AI 활용 문화 정착을 위해 Domain 현업 지식을 가진 구성원을 체계적으로 육성하여 과제 발굴 및 리딩하기 위한 제도"
+  },
+  "definitions": {
+    "program": "AX 성공, 특히 생성형AI 활용 문화의 정착을 위해 Domain 현업 지식을 가진 구성원을 체계적으로 육성하여 옥성된 Domain 선분가 중심으로 과제 발굴 및 리딩하기 위한 제도",
+    "competency": "LG전자 모든 구성원이 갖춰야 할 공통 역량으로서 고객감동을 목표로, AI 기술을 활용하여 자신의 업무와 관련된 AX 과제 후보를 제안하고, 선정된 과제에 담당 후은 리더로 참여하여 업무 생산성을 향상시킬 수 있는 역량"
+  },
+  "levels": [
+    {
+      "id": "starter",
+      "name": "AX Starter",
+      "level": 1,
+      "summary": "AX의 개념적 이해를 바탕으로 과제를 제안할 수 있으며, AI 기술을 활용한 기초적 Data분석이 가능한 단위",
+      "requiredSkills": ["AX개념과 용어", "생성형AI 기본 이해", "AI/Data기반 고객 이해", "기초 Data 분석 이해"]
+    },
+    {
+      "id": "enabler", 
+      "name": "AX Enabler",
+      "level": 2,
+      "summary": "시스템에 대한 이해와 Data 시각화와 Data 분석 과정 및 기초 머신러닝 기법을 이해할 수 있는 AX과제 담당 및 리더",
+      "requiredSkills": ["AX과제 실행 절차 설계", "Data 분석 프로세스 이해", "머신러닝 기초"]
+    },
+    {
+      "id": "cds",
+      "name": "AX CDS", 
+      "level": 3,
+      "summary": "사내/외 AX 동향을 이해하고 판별한 실행 경험을 바탕으로 조직 내 AI 시스템도를 촉진할 수 있는 AX실행 컨설턴트",
+      "requiredSkills": ["비정형 Data 분석 이해", "생성형AI 활용 기술 이해", "머신러닝/딥러닝 이해"]
+    }
+  ],
+  "transitionPlan": {
+    "periodEnd": "2026-12-31",
+    "renumberingRule": "전환 운영 기간: ~'26.12.31일, 교육 과정 이수어보는 리넘빙 기준, 3단계 점진 순차적으로 전환",
+    "phases": [
+      { "phase": 1, "effectiveMonth": "2024.10~25.11" },
+      { "phase": 2, "effectiveMonth": "25.12~26.6" },
+      { "phase": 3, "effectiveMonth": "26.7~12" }
+    ],
+    "milestones": [
+      { "date": "2025-11", "label": "DX Lv. 인증 중단" },
+      { "date": "2025-12", "label": "DX→AX Lv. 1차 전환" },
+      { "date": "2026-01", "label": "AX Lv. 인증 시작" },
+      { "date": "2026-07", "label": "DX→AX Lv. 2차 전환" },
+      { "date": "2027-01", "label": "DX→AX Lv. 3차 전환" }
+    ],
+    "upskillConditions": [
+      { 
+        "level": "DX Starter Level 1", 
+        "offlineCoursesMin": 1,
+        "onlineHoursMin": 2,
+        "genAIAssignment": false 
+      },
+      { 
+        "level": "DX Enabler Level 2", 
+        "offlineCoursesMin": 1,
+        "onlineHoursMin": 5,
+        "genAIAssignment": true 
+      },
+      { 
+        "level": "DX CDS Level 3", 
+        "offlineCoursesMin": 1,
+        "onlineCoursesMin": 1,
+        "genAIAssignment": true 
+      }
+    ],
+    "learningHistoryGuide": {
+      "path": "LGE > HR > Learning > 학습 이력",
+      "note": "세부의 Upskill Course 명과 동일한지 확인하고 상태가 'Complete' 상태인지 확인"
+    }
+  },
+  "courses": [
+    {
+      "delivery": "오프라인",
+      "title": "[생산기술원][초급] 회사의 생산성을 높이는 ChatGPT 활용법",
+      "hours": 14,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "오프라인",
+      "title": "[생산기술원][중급]생성형 AI를 이용한 업무자동화",
+      "hours": 7,
+      "eligible": { "L1": true, "L2": true, "L3": true },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "오프라인",
+      "title": "[생산기술원][고급]개발자를 위한 고급 프롬프트와 LLM 엔지니어링",
+      "hours": 14,
+      "eligible": { "L1": true, "L2": true, "L3": true },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "오프라인",
+      "title": "[생성형 AI][초급] ChatGPT와 다양한 AI 도구로 완성하는 실무 보고서 작성",
+      "hours": 5,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "오프라인",
+      "title": "[생성형 AI][고급]RAG를 활용한 고급 챗봇 개발",
+      "hours": 14,
+      "eligible": { "L1": true, "L2": true, "L3": true },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 입문",
+      "hours": 2,
+      "eligible": { "L1": true, "L2": false, "L3": true },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅰ : ChatGPT 활용 편",
+      "hours": 5,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : GPTs 활용 편",
+      "hours": 5,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ① 업무 효율화의 시기적, GPTs",
+      "hours": 1,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 1",
+      "hours": 1,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 2",
+      "hours": 1,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 3",
+      "hours": 1,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 4",
+      "hours": 1,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 5",
+      "hours": 0.5,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ③ 무궁무진한 GPTs 활용법",
+      "hours": 0.5,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[개정] 생성형 AI 리터러시",
+      "hours": 4,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인",
+      "title": "[ChatEXAONE] 온라인 기본 교육",
+      "hours": 1,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "모든을 위한 ChatGPT을 이용한 업무자동화 Part 1",
+      "hours": 5.5,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "ChatGPT로 내가 똑똑해지기",
+      "hours": 2,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "ChatGPT(챗 지피티) 최신 모델 프롬프트 엔지니어링(Prompt Engineering) 바이블",
+      "hours": 8.5,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": null,
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "ChatGPT 비즈니스 전략 마스터 클래스",
+      "hours": 3.5,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": null,
+      "needsVerification": true
+    }
+  ],
+  "contact": {
+    "owner": "조대근 책임",
+    "unit": "생산기술육성파트"
+  }
+}
