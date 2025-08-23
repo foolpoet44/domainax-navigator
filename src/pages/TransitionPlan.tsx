@@ -21,9 +21,7 @@ const TransitionPlan = () => {
             Domain DX → AX 전환 계획
           </Badge>
           <h1 className="text-4xl font-bold mb-4">기존 Domain DX 인증 레벨 전환 계획</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            {domainAxData.transitionPlan.renumberingRule}
-          </p>
+          
         </div>
 
         {/* Timeline */}
