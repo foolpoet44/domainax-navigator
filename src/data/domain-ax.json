@@ -76,7 +76,7 @@
       "title": "[생산기술원][초급] 회사의 생산성을 높이는 ChatGPT 활용법",
       "hours": 14,
       "eligible": { "L1": true, "L2": false, "L3": false },
-      "link": null,
+      "link": "https://lg.lms.sapsf.com/learning/user/deeplink.do?linkId=ITEM_DETAILS&componentID=18146&componentTypeID=Offline&revisionDate=1739239980000",
       "needsVerification": true
     },
     {
@@ -84,7 +84,7 @@
       "title": "[생산기술원][중급]생성형 AI를 이용한 업무자동화",
       "hours": 7,
       "eligible": { "L1": true, "L2": true, "L3": true },
-      "link": null,
+      "link": "https://lg.lms.sapsf.com/learning/user/deeplink.do?linkId=ITEM_DETAILS&componentID=18130&componentTypeID=Offline&revisionDate=1739232960000",
       "needsVerification": true
     },
     {
@@ -92,23 +92,23 @@
       "title": "[생산기술원][고급]개발자를 위한 고급 프롬프트와 LLM 엔지니어링",
       "hours": 14,
       "eligible": { "L1": true, "L2": true, "L3": true },
-      "link": null,
+      "link": "https://lg.lms.sapsf.com/learning/user/deeplink.do?linkId=ITEM_DETAILS&componentID=18152&componentTypeID=Offline&revisionDate=1739240940000",
       "needsVerification": true
     },
     {
       "delivery": "오프라인",
-      "title": "[생성형 AI][초급] ChatGPT와 다양한 AI 도구로 완성하는 실무 보고서 작성",
+      "title": "[생성형 AI] [초급] ChatGPT와 다양한 AI 도구로 완성하는 실무 보고서 작성",
       "hours": 5,
       "eligible": { "L1": true, "L2": false, "L3": false },
-      "link": null,
+      "link": "https://lg.lms.sapsf.com/learning/user/deeplink.do?linkId=ITEM_DETAILS&componentID=16080&componentTypeID=Offline&revisionDate=1736253120000",
       "needsVerification": true
     },
     {
       "delivery": "오프라인",
-      "title": "[생성형 AI][고급]RAG를 활용한 고급 챗봇 개발",
+      "title": "[생성형 AI][고급]RAG를 활용한 고급 챗봇 개발 ",
       "hours": 14,
       "eligible": { "L1": true, "L2": true, "L3": true },
-      "link": null,
+      "link": "https://lg.lms.sapsf.com/learning/user/deeplink.do?linkId=ITEM_DETAILS&componentID=16084&componentTypeID=Offline&revisionDate=1736256300000",
       "needsVerification": true
     },
     {
@@ -116,7 +116,7 @@
       "title": "[온라인] [DX] 생성형 AI 입문",
       "hours": 2,
       "eligible": { "L1": true, "L2": false, "L3": true },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d15592%26componentTypeID%3dOnline%26revisionDate%3d1735227060000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
@@ -124,7 +124,7 @@
       "title": "[온라인] [DX] 생성형 AI 활용 Ⅰ : ChatGPT 활용 편",
       "hours": 5,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d15815%26componentTypeID%3dOnline%26revisionDate%3d1753243200000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
@@ -132,55 +132,55 @@
       "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : GPTs 활용 편",
       "hours": 5,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d15819%26componentTypeID%3dOnline%26revisionDate%3d1735888800000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
       "delivery": "온라인",
-      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ① 업무 효율화의 시기적, GPTs",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ① 업무 효율화의 신기원, GPTs",
       "hours": 1,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d21684%26componentTypeID%3dOnline%26revisionDate%3d1743639900000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
       "delivery": "온라인",
-      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 1",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤혐 GPTs 만들기 Part 1",
       "hours": 1,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d21686%26componentTypeID%3dOnline%26revisionDate%3d1743640860000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
       "delivery": "온라인",
-      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 2",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤혐 GPTs 만들기 Part 2",
       "hours": 1,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d21688%26componentTypeID%3dOnline%26revisionDate%3d1743642780000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
       "delivery": "온라인",
-      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 3",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤혐 GPTs 만들기 Part 3",
       "hours": 1,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d21693%26componentTypeID%3dOnline%26revisionDate%3d1743643920000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
       "delivery": "온라인",
-      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 4",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤혐 GPTs 만들기 Part 4",
       "hours": 1,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d21696%26componentTypeID%3dOnline%26revisionDate%3d1743644160000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
       "delivery": "온라인",
-      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤형 GPTs 만들기 Part 5",
+      "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ② 직장인 맞춤혐 GPTs 만들기 Part 5",
       "hours": 0.5,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d21698%26componentTypeID%3dOnline%26revisionDate%3d1743644460000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
@@ -188,7 +188,7 @@
       "title": "[온라인] [DX] 생성형 AI 활용 Ⅱ : ③ 무궁무진한 GPTs 활용법",
       "hours": 0.5,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d21700%26componentTypeID%3dOnline%26revisionDate%3d1743644700000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
@@ -196,7 +196,7 @@
       "title": "[개정] 생성형 AI 리터러시",
       "hours": 4,
       "eligible": { "L1": true, "L2": true, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d25693%26componentTypeID%3dOnline%26revisionDate%3d1752803820000%26targetStudentSysGUID%25",
       "needsVerification": true
     },
     {
@@ -204,23 +204,23 @@
       "title": "[ChatEXAONE] 온라인 기본 교육",
       "hours": 1,
       "eligible": { "L1": true, "L2": false, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dLGA%5fAI%5f2025%5fchatexaone%5fbasic%26componentTypeID%3dOnline%26revisionDate%3d174726",
       "needsVerification": true
     },
     {
       "delivery": "온라인 (Udemy)",
-      "title": "모든을 위한 ChatGPT을 이용한 업무자동화 Part 1",
+      "title": "모두를 위한 ChatGPT를 이용한 업무자동화 Part 1",
       "hours": 5.5,
       "eligible": { "L1": true, "L2": false, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f20428%26componentTypeID%3dOnline%26revisionDate%3d1677744488000%26targetStudent",
       "needsVerification": true
     },
     {
       "delivery": "온라인 (Udemy)",
-      "title": "ChatGPT로 내가 똑똑해지기",
+      "title": "ChatGPT로 '내'가 똑똑해지기",
       "hours": 2,
       "eligible": { "L1": true, "L2": false, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f26776%26componentTypeID%3dOnline%26revisionDate%3d1712121271000%26targetStudent",
       "needsVerification": true
     },
     {
@@ -228,7 +228,7 @@
       "title": "ChatGPT(챗 지피티) 최신 모델 프롬프트 엔지니어링(Prompt Engineering) 바이블",
       "hours": 8.5,
       "eligible": { "L1": true, "L2": false, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f56225%26componentTypeID%3dOnline%26revisionDate%3d1741666078000%26targetStudent",
       "needsVerification": true
     },
     {
@@ -236,7 +236,55 @@
       "title": "ChatGPT 비즈니스 전략 마스터 클래스",
       "hours": 3.5,
       "eligible": { "L1": true, "L2": false, "L3": false },
-      "link": null,
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f20752%26componentTypeID%3dOnline%26revisionDate%3d1680598410000%26targetStudent",
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "ChatGPT 전략적 활용법 – 리더를 위한 생성형 AI 비즈니스 전략 과정",
+      "hours": 2.5,
+      "eligible": { "L1": true, "L2": false, "L3": false },
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f29609%26componentTypeID%3dOnline%26revisionDate%3d1727162068000%26targetStudent",
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "ChatGPT 플레이북: AI 해커톤 1등 실전 가이드",
+      "hours": 4.5,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f25612%26componentTypeID%3dOnline%26revisionDate%3d1706837799000%26targetStudent",
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "초보 강사를 위한 AI 활용 가이드",
+      "hours": 3,
+      "eligible": { "L1": true, "L2": true, "L3": false },
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f28479%26componentTypeID%3dOnline%26revisionDate%3d1719815256000%26targetStudent",
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "ChatGPT 업무혁신 BIBLE - 바이브코딩(vibe coding)을 활용한 시민개발자의 시대",
+      "hours": 16,
+      "eligible": { "L1": true, "L2": true, "L3": true },
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f55938%26componentTypeID%3dOnline%26revisionDate%3d1741665966000%26targetStudent",
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "생성형 AI를 활용한 CRM & 마케팅 자동화",
+      "hours": 6,
+      "eligible": { "L1": true, "L2": true, "L3": true },
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f56221%26componentTypeID%3dOnline%26revisionDate%3d1741666076000%26targetStudent",
+      "needsVerification": true
+    },
+    {
+      "delivery": "온라인 (Udemy)",
+      "title": "GPT에게 맡기는 AI 비트코인 투자 자동화 - AI 에이전트 만들기",
+      "hours": 4,
+      "eligible": { "L1": true, "L2": true, "L3": true },
+      "link": "https://hcm50.sapsf.com/sf/learning?destUrl=https%3a%2f%2flg%2elms%2esapsf%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dUDEMY%5f55113%26componentTypeID%3dOnline%26revisionDate%3d1735698986000%26targetStudent",
       "needsVerification": true
     }
   ],
