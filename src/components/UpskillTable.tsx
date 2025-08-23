@@ -12,7 +12,7 @@ export function UpskillTable({
 }: UpskillTableProps) {
   return <Card className={className}>
       <CardHeader>
-        <CardTitle>기초 레벨별 "Upskill Course" 전환 조건</CardTitle>
+        <CardTitle>"Upskill Course" 수강 기준</CardTitle>
       </CardHeader>
       <CardContent>
         <div className="overflow-x-auto">

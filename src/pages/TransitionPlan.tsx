@@ -6,14 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDays, BookOpen, ExternalLink } from "lucide-react";
 import domainAxData from "@/data/domain-ax.json";
-
 const TransitionPlan = () => {
   const handlePrint = () => {
     window.print();
   };
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Navigation onPrintPage={handlePrint} />
       
       <div className="container mx-auto px-4 py-8">
@@ -42,8 +39,7 @@ const TransitionPlan = () => {
         <div className="mb-16">
           <h2 className="text-2xl font-bold mb-8">전환 단계별 일정</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {domainAxData.transitionPlan.phases.map((phase, index) => (
-              <Card key={index} className="print-break-inside-avoid">
+            {domainAxData.transitionPlan.phases.map((phase, index) => <Card key={index} className="print-break-inside-avoid">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Badge className="mr-3 bg-gradient-hero text-primary-foreground border-none">
@@ -57,8 +53,7 @@ const TransitionPlan = () => {
                     전환 시기: {phase.effectiveMonth}
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
 
@@ -94,20 +89,11 @@ const TransitionPlan = () => {
               <p className="leading-relaxed">
                 <strong>확인 사항:</strong> {domainAxData.transitionPlan.learningHistoryGuide.note}
               </p>
-              <Button 
-                variant="outline" 
-                className="border-green-500 text-green-700 hover:bg-green-100"
-                onClick={() => window.open("https://lge.com", "_blank")}
-              >
-                <ExternalLink className="mr-2 h-4 w-4" />
-                학습 이력 확인하기
-              </Button>
+              
             </div>
           </CardContent>
         </Card>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default TransitionPlan;
