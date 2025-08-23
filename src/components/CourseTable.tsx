@@ -216,14 +216,7 @@ export function CourseTable({ courses, className }: CourseTableProps) {
                     </Badge>
                   </td>
                   <td className="p-3">
-                    <div className="space-y-1">
-                      <div className="font-medium leading-relaxed">{course.title}</div>
-                      {course.needsVerification && (
-                        <Badge variant="secondary" className="text-xs">
-                          검증 필요
-                        </Badge>
-                      )}
-                    </div>
+                    <div className="font-medium leading-relaxed">{course.title}</div>
                   </td>
                   <td className="p-3">
                     <Badge variant="outline" className="font-mono">
