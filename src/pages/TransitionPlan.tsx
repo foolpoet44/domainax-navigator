@@ -75,7 +75,7 @@ const TransitionPlan = () => {
               </div>
               <div>
                 <CardTitle className="text-green-900">나의 수강 이력 확인 방법</CardTitle>
-                <CardDescription className="text-green-700">
+                <CardDescription className="text-green-700 mx-0 py-[5px]">
                   {domainAxData.transitionPlan.learningHistoryGuide.path}
                 </CardDescription>
               </div>
