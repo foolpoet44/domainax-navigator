@@ -21,7 +21,7 @@ export function UpskillTable({
               <tr className="border-b">
                 <th className="text-left p-4 font-semibold">레벨</th>
                 <th className="text-left p-4 font-semibold">오프라인 과정</th>
-                <th className="text-left p-4 font-semibold">온라인 과정</th>
+                
                 <th className="text-left p-4 font-semibold">온라인 시간</th>
                 <th className="text-left p-4 font-semibold">생성형 AI 과제</th>
               </tr>
@@ -39,12 +39,7 @@ export function UpskillTable({
                         <span>{condition.offlineCoursesMin}개 이상</span>
                       </span> : <span className="text-muted-foreground">-</span>}
                   </td>
-                  <td className="p-4">
-                    {condition.onlineCoursesMin ? <span className="flex items-center space-x-2">
-                        <CheckCircle className="h-4 w-4 text-green-600" />
-                        <span>{condition.onlineCoursesMin}개 이상</span>
-                      </span> : <span className="text-muted-foreground">-</span>}
-                  </td>
+                  
                   <td className="p-4">
                     {condition.onlineHoursMin ? <span className="flex items-center space-x-2">
                         <CheckCircle className="h-4 w-4 text-green-600" />
