@@ -46,9 +46,14 @@ const Index = () => {
                 <CardDescription>Domain AX 인증 제도</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="leading-relaxed mb-4">
-                  {domainAxData.definitions.program}
-                </p>
+                <ul className="space-y-2 mb-4">
+                  {domainAxData.definitions.program.map((item, index) => (
+                    <li key={index} className="flex items-start space-x-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span className="leading-relaxed">{item}</span>
+                    </li>
+                  ))}
+                </ul>
                 <Button variant="outline" size="sm" asChild>
                   <Link to="/levels">
                     자세히 보기 <ArrowRight className="ml-2 h-4 w-4" />
@@ -69,9 +74,14 @@ const Index = () => {
                 <CardDescription>Domain AX 역량이란</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="leading-relaxed mb-4">
-                  {domainAxData.definitions.competency}
-                </p>
+                <ul className="space-y-2 mb-4">
+                  {domainAxData.definitions.competency.map((item, index) => (
+                    <li key={index} className="flex items-start space-x-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span className="leading-relaxed">{item}</span>
+                    </li>
+                  ))}
+                </ul>
                 <Button variant="outline" size="sm" asChild>
                   <Link to="/levels">
                     역량 보기 <ArrowRight className="ml-2 h-4 w-4" />
@@ -92,9 +102,14 @@ const Index = () => {
                 <CardDescription>전환 및 수강 안내</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="leading-relaxed mb-4">
-                  기존 Domain DX 인증자 (DX Starter, DX Enabler, DX CDS)는 아래의 Upskill Course 수강을 통해 Domain AX 전환이 가능합니다.
-                </p>
+                <ul className="space-y-2 mb-4">
+                  {domainAxData.definitions.upskillGuide.map((item, index) => (
+                    <li key={index} className="flex items-start space-x-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span className="leading-relaxed">{item}</span>
+                    </li>
+                  ))}
+                </ul>
                 <div className="flex space-x-2 mb-4">
                   <Button variant="outline" size="sm" asChild>
                     <Link to="/transition-plan">

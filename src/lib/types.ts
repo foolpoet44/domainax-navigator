@@ -60,8 +60,9 @@ export interface DomainAx {
     subtitle: string;
   };
   definitions: {
-    program: string;
-    competency: string;
+    program: string[];
+    competency: string[];
+    upskillGuide: string[];
   };
   levels: Level[];
   transitionPlan: TransitionPlan;
