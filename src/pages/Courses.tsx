@@ -4,14 +4,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, AlertCircle } from "lucide-react";
 import domainAxData from "@/data/domain-ax.json";
-
 const Courses = () => {
   const handlePrint = () => {
     window.print();
   };
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Navigation onPrintPage={handlePrint} />
       
       <div className="container mx-auto px-4 py-8">
@@ -34,32 +31,15 @@ const Courses = () => {
 
         {/* Information Notice */}
         <Card className="bg-gradient-to-r from-amber-50 to-orange-50 border-amber-200">
-          <CardHeader>
-            <div className="flex items-center space-x-3">
-              <div className="p-2 bg-amber-500 rounded-lg">
-                <AlertCircle className="h-6 w-6 text-white" />
-              </div>
-              <div>
-                <CardTitle className="text-amber-900">데이터 출처 및 검증 안내</CardTitle>
-                <CardDescription className="text-amber-700">
-                  과정 정보의 정확성에 대한 안내사항
-                </CardDescription>
-              </div>
-            </div>
-          </CardHeader>
+          
           <CardContent>
             <div className="text-amber-900 space-y-3">
-              <p>
+              <p className="py-[10px]">
                 <strong>담당자:</strong> {domainAxData.contact.owner} ({domainAxData.contact.unit})
               </p>
-              <p>
-                <strong>주의사항:</strong> 일부 과정의 링크나 세부 정보는 현재 검증 중에 있습니다. 
-                정확한 수강 신청은 담당자에게 문의해 주시기 바랍니다.
-              </p>
+              
               <div className="flex space-x-2 pt-2">
-                <Badge variant="secondary" className="bg-amber-100 text-amber-800">
-                  검증 필요 항목 있음
-                </Badge>
+                
                 <Badge variant="secondary" className="bg-blue-100 text-blue-800">
                   정기 업데이트
                 </Badge>
@@ -68,8 +48,6 @@ const Courses = () => {
           </CardContent>
         </Card>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Courses;
