@@ -24,9 +24,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Domain AX인증제 안내
             </h1>
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto opacity-90">
-              {domainAxData.hero.subtitle}
-            </p>
+            
             
           </div>
         </div>
@@ -123,7 +121,7 @@ const Index = () => {
             <CardContent className="text-center">
               <div className="space-y-3">
                 
-                <div className="text-muted-foreground">{domainAxData.contact.unit}</div>
+                <div className="text-muted-foreground py-[10px]">{domainAxData.contact.unit}</div>
                 <Badge variant="secondary" className="mt-4">
                   담당자: {domainAxData.contact.owner}
                 </Badge>
