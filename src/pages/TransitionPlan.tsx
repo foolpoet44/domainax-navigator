@@ -34,26 +34,7 @@ const TransitionPlan = () => {
         </div>
 
         {/* Phase Information */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-8">전환 단계별 일정</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {domainAxData.transitionPlan.phases.map((phase, index) => <Card key={index} className="print-break-inside-avoid">
-                <CardHeader>
-                  <CardTitle className="flex items-center">
-                    <Badge className="mr-3 bg-gradient-hero text-primary-foreground border-none">
-                      {phase.phase}단계
-                    </Badge>
-                  </CardTitle>
-                  <CardDescription>{phase.effectiveMonth}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-sm text-muted-foreground">
-                    전환 시기: {phase.effectiveMonth}
-                  </div>
-                </CardContent>
-              </Card>)}
-          </div>
-        </div>
+        
 
         {/* Upskill Conditions */}
         <div className="mb-16">
