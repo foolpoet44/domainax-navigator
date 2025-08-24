@@ -23,7 +23,7 @@ export function UpskillTable({
                 <th className="text-left p-4 font-semibold">오프라인 과정</th>
                 <th className="text-left p-4 font-semibold">온라인 과정</th>
                 <th className="text-left p-4 font-semibold">온라인 시간</th>
-                
+                <th className="text-left p-4 font-semibold">생성형 AI 과제</th>
               </tr>
             </thead>
             <tbody>
@@ -51,7 +51,15 @@ export function UpskillTable({
                         <span>{condition.onlineHoursMin}시간 이상</span>
                       </span> : <span className="text-muted-foreground">-</span>}
                   </td>
-                  
+                  <td className="p-4">
+                    {condition.genAIAssignment ? <span className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-green-600" />
+                        <span>Axplorer 완료</span>
+                      </span> : <span className="flex items-center space-x-2">
+                        <XCircle className="h-4 w-4 text-muted-foreground" />
+                        <span className="text-muted-foreground">해당 없음</span>
+                      </span>}
+                  </td>
                 </tr>)}
             </tbody>
           </table>

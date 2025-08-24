@@ -64,12 +64,14 @@
       { 
         "level": "DX Starter Level 1", 
         "offlineCoursesMin": 1,
+        "onlineCoursesMin": 1,
         "onlineHoursMin": 2,
         "genAIAssignment": false 
       },
       { 
         "level": "DX Enabler Level 2", 
         "offlineCoursesMin": 1,
+        "onlineCoursesMin": 1,
         "onlineHoursMin": 5,
         "genAIAssignment": true 
       },
