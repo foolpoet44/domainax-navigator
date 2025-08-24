@@ -51,9 +51,9 @@ const Levels = () => {
               <div className="space-y-2">
                 <h4 className="font-semibold">AX Starter (Level 1)</h4>
                 <ul className="text-sm space-y-1 text-blue-700">
-                  <li>• 생성형 AI 기본 개념 학습</li>
-                  <li>• ChatGPT 활용법 습득</li>
                   <li>• 기초 데이터 분석 이해</li>
+                  <li>• 생성형 AI 기본 개념 학습</li>
+                  <li>• 생성형 AI 활용법 습득</li>
                 </ul>
               </div>
               <div className="space-y-2">
@@ -67,9 +67,9 @@ const Levels = () => {
               <div className="space-y-2">
                 <h4 className="font-semibold">AX CDS (Level 3)</h4>
                 <ul className="text-sm space-y-1 text-blue-700">
-                  <li>• 고급 AI 기술 이해</li>
-                  <li>• 조직 내 AI 도입 리딩</li>
                   <li>• 비정형 데이터 분석</li>
+                  <li>• 최신 AI 기술 적용 역량</li>
+                  <li>• 조직 내 AI 도입 및 변화 리딩</li>
                 </ul>
               </div>
             </div>
