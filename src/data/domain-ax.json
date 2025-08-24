@@ -62,21 +62,21 @@
     ],
     "upskillConditions": [
       { 
-        "level": "DX Starter Level 1", 
+        "level": "Starter", 
         "offlineCoursesMin": 1,
         "onlineCoursesMin": 1,
         "onlineHoursMin": 2,
         "genAIAssignment": false 
       },
       { 
-        "level": "DX Enabler Level 2", 
+        "level": "Enabler", 
         "offlineCoursesMin": 1,
         "onlineCoursesMin": 1,
         "onlineHoursMin": 5,
         "genAIAssignment": true 
       },
       { 
-        "level": "DX CDS Level 3", 
+        "level": "CDS", 
         "offlineCoursesMin": 1,
         "onlineCoursesMin": 1,
         "genAIAssignment": true 
