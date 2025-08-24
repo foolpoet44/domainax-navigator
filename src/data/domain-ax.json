@@ -5,7 +5,7 @@
   },
   "definitions": {
     "program": [
-      "AX를 위한 Domain 지식을 가진 구성원을 체계적으로 육성",
+      "Domain 전문가의 AX 역량을 체계적으로 육성",
       "Domain 역량 기반 AX 과제 발굴/리딩",
       "체계적인 교육과정을 통한 실무 역량 강화",
       "조직 내 AI 활용 문화 확산"
@@ -17,7 +17,7 @@
       "AI/Data 기반 분석 및 문제해결 역량"
     ],
     "upskillGuide": [
-      "기존 Domain DX 인증자 (DX Starter, DX Enabler, DX CDS) 대상",
+      "기존 Domain DX 인증자 대상 ",
       "Upskill Course 수강을 통한 Domain AX 전환 가능",
       "단계별 교육과정 이수 후 자동 전환"
     ]
