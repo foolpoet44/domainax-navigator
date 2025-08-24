@@ -41,7 +41,7 @@ const Index = () => {
                   <div className="p-2 bg-gradient-hero rounded-lg">
                     <Building2 className="h-6 w-6 text-primary-foreground" />
                   </div>
-                  <CardTitle>프로그램 요약</CardTitle>
+                  <CardTitle>인증제도 안내</CardTitle>
                 </div>
                 <CardDescription>Domain AX 인증 제도</CardDescription>
               </CardHeader>
