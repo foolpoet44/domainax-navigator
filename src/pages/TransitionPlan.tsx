@@ -1,6 +1,5 @@
 import { Navigation } from "@/components/ui/navigation";
 import { Timeline } from "@/components/Timeline";
-import { UpskillTable } from "@/components/UpskillTable";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -36,14 +35,6 @@ const TransitionPlan = () => {
         {/* Phase Information */}
         
 
-        {/* Upskill Conditions */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-8 flex items-center">
-            <BookOpen className="mr-3 h-6 w-6 text-primary" />
-            레벨별 Upskill 조건
-          </h2>
-          <UpskillTable conditions={domainAxData.transitionPlan.upskillConditions} />
-        </div>
 
         {/* Learning History Guide */}
         <Card className="bg-gradient-to-r from-green-50 to-emerald-50 border-green-200">

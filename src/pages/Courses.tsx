@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/ui/navigation";
 import { CourseTable } from "@/components/CourseTable";
+import { UpskillTable } from "@/components/UpskillTable";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, AlertCircle } from "lucide-react";
@@ -22,6 +23,15 @@ const Courses = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             각 레벨별 인정 과정과 수강 시간을 확인하고, 필요한 과정을 검색하여 수강하세요.
           </p>
+        </div>
+
+        {/* Upskill Conditions */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold mb-8 flex items-center">
+            <BookOpen className="mr-3 h-6 w-6 text-primary" />
+            레벨별 Upskill 조건
+          </h2>
+          <UpskillTable conditions={domainAxData.transitionPlan.upskillConditions} />
         </div>
 
         {/* Course Table */}
