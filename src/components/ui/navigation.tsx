@@ -52,12 +52,7 @@ export function Navigation({
             </div>
           </div>
           
-          {onPrintPage && (
-            <Button onClick={onPrintPage} variant="outline" size="sm">
-              <FileDown className="mr-2 h-4 w-4" />
-              <span className="hidden sm:inline">인쇄</span>
-            </Button>
-          )}
+          {onPrintPage}
         </div>
       </div>
     </nav>;
