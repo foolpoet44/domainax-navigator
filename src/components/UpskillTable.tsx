@@ -12,7 +12,7 @@ export function UpskillTable({
 }: UpskillTableProps) {
   return <Card className={className}>
       <CardHeader>
-        <CardTitle>"Upskill Course" 수강 기준</CardTitle>
+        <CardTitle>아래 중 1개 이상 충족시 AX 인증으로 전환됩니다.</CardTitle>
       </CardHeader>
       <CardContent>
         <div className="overflow-x-auto">
