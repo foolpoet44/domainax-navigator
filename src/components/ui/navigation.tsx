@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Home, Layers, GitBranch, BookOpen, FileDown } from "lucide-react";
+import { Home, Layers, GitBranch, BookOpen, Printer } from "lucide-react";
 interface NavigationProps {
   onPrintPage?: () => void;
 }
@@ -52,7 +52,12 @@ export function Navigation({
             </div>
           </div>
           
-          {onPrintPage}
+          {onPrintPage && (
+            <Button variant="outline" size="sm" onClick={onPrintPage}>
+              <Printer className="mr-2 h-4 w-4" />
+              인쇄
+            </Button>
+          )}
         </div>
       </div>
     </nav>;
