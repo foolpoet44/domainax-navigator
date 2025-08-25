@@ -28,21 +28,21 @@
       "name": "AX Starter",
       "level": 1,
       "summary": "AX의 개념적 이해를 바탕으로 과제를 제안할 수 있으며, AI 기술을 활용한 기초적 Data분석이 가능한 단위",
-      "requiredSkills": ["AX개념과 용어", "생성형AI 기본 이해", "AI/Data기반 고객 이해", "기초 Data 분석 이해"]
+      "requiredSkills": ["생성형 AI 개념", "AI 도구 활용", "프롬프트 엔지니어링 개념과 최적화", "데이터 수집, 정제 및 전처리"]
     },
     {
       "id": "enabler", 
       "name": "AX Enabler",
       "level": 2,
       "summary": "시스템에 대한 이해와 Data 시각화와 Data 분석 과정 및 기초 머신러닝 기법을 이해할 수 있는 AX과제 담당 및 리더",
-      "requiredSkills": ["AX과제 실행 절차 설계", "Data 분석 프로세스 이해", "머신러닝 기초"]
+      "requiredSkills": ["딥러닝의 개념 이해", "메타 Data의 이해와 활용", "Responsible AI의 이해", "CNN의 이해와 활용 사례"]
     },
     {
       "id": "cds",
       "name": "AX CDS", 
       "level": 3,
       "summary": "사내/외 AX 동향을 이해하고 판별한 실행 경험을 바탕으로 조직 내 AI 시스템도를 촉진할 수 있는 AX실행 컨설턴트",
-      "requiredSkills": ["비정형 Data 분석 이해", "생성형AI 활용 기술 이해", "머신러닝/딥러닝 이해"]
+      "requiredSkills": ["RNN, LSTM의 이해와 활용 사례", "Transformer의 이해와 활용 사례", "RAG(검색 증강 생성)의 이해와 활용", "AI Agent의 이해와 활용 사례"]
     }
   ],
   "transitionPlan": {
