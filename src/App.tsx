@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Levels from "./pages/Levels";
+import CompetencyDefinitions from "./pages/CompetencyDefinitions";
 import TransitionPlan from "./pages/TransitionPlan";
 import Courses from "./pages/Courses";
 import NotFound from "./pages/NotFound";
@@ -20,6 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/levels" element={<Levels />} />
+          <Route path="/competency-definitions" element={<CompetencyDefinitions />} />
           <Route path="/transition-plan" element={<TransitionPlan />} />
           <Route path="/courses" element={<Courses />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

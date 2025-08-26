@@ -2,12 +2,20 @@ import { Navigation } from "@/components/ui/navigation";
 import { LevelCard } from "@/components/LevelCard";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Lightbulb } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Lightbulb, BookOpen } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import domainAxData from "@/data/domain-ax.json";
 
 const Levels = () => {
+  const navigate = useNavigate();
+  
   const handlePrint = () => {
     window.print();
+  };
+
+  const handleViewCompetencies = () => {
+    navigate('/competency-definitions');
   };
 
   return (
@@ -21,9 +29,17 @@ const Levels = () => {
             Domain AX 레벨 시스템
           </Badge>
           <h1 className="text-4xl font-bold mb-4">레벨별 인증 안내</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6">
             Domain AX 인증은 3단계 레벨로 구성되어 있으며, 각 레벨별로 요구되는 역량과 스킬이 다릅니다.
           </p>
+          <Button 
+            onClick={handleViewCompetencies}
+            className="bg-gradient-hero text-primary-foreground hover:opacity-90 shadow-soft"
+            size="lg"
+          >
+            <BookOpen className="mr-2 h-5 w-5" />
+            역량보기
+          </Button>
         </div>
 
         {/* Level Cards */}
