@@ -99,7 +99,7 @@
     {
       "delivery": "오프라인",
       "title": "[생산기술원][중급]생성형 AI를 이용한 업무자동화",
-      "hours": 7,
+      "hours": 14,
       "eligible": { "L1": true, "L2": true, "L3": true },
       "link": "https://lg.lms.sapsf.com/learning/user/deeplink.do?linkId=ITEM_DETAILS&componentID=18130&componentTypeID=Offline&revisionDate=1739232960000",
       "needsVerification": true
