@@ -52,12 +52,7 @@ export function Navigation({
             </div>
           </div>
           
-          {onPrintPage && (
-            <Button variant="outline" size="sm" onClick={onPrintPage}>
-              <Printer className="mr-2 h-4 w-4" />
-              인쇄
-            </Button>
-          )}
+          {onPrintPage}
         </div>
       </div>
     </nav>;
