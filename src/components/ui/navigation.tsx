@@ -52,17 +52,7 @@ export function Navigation({
             </div>
           </div>
           
-          {onPrintPage && (
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => onPrintPage()}
-              className="text-muted-foreground hover:text-foreground"
-            >
-              <Printer className="h-4 w-4 mr-2" />
-              인쇄
-            </Button>
-          )}
+          {onPrintPage}
         </div>
       </div>
     </nav>;
