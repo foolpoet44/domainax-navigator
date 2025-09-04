@@ -79,6 +79,7 @@
         "level": "CDS", 
         "offlineCoursesMin": 1,
         "onlineCoursesMin": 1,
+        "onlineHoursMin": 1,
         "genAIAssignment": true 
       }
     ],

@@ -52,7 +52,11 @@ export function Navigation({
             </div>
           </div>
           
-          {onPrintPage}
+          {onPrintPage && (
+            <Button variant="ghost" size="sm" onClick={onPrintPage}>
+              <Printer className="h-4 w-4" />
+            </Button>
+          )}
         </div>
       </div>
     </nav>;
