@@ -21,7 +21,7 @@ export function UpskillTable({
               <tr className="border-b">
                 <th className="text-left p-4 font-semibold">레벨</th>
                 <th className="text-left p-4 font-semibold">오프라인 과정</th>
-                <th className="text-left p-4 font-semibold">온라인 시간</th>
+                <th className="text-left p-4 font-semibold">온라인 과정</th>
                 <th className="text-left p-4 font-semibold">생성형 AI 과제</th>
               </tr>
             </thead>
