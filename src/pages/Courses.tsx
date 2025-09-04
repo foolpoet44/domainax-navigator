@@ -20,7 +20,7 @@ const Courses = () => {
             Domain AX 인증 과정
           </Badge>
           <h1 className="text-4xl font-bold mb-4">Domain AX 인증 과정 목록</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">기존 DX 인증자(Starter, Enabler, CDS)는 아래의 Upskill Course 수강을 통해
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">기존 DX 인증자(Starter, Enabler, CDS)는 아래의 Upskill Course 수강을 통해 
  `26년 말까지 Domain AX로 인증전환 하시기 바랍니다.</p>
         </div>
 
