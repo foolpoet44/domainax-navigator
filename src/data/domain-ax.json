@@ -92,7 +92,7 @@
     {
       "delivery": "오프라인",
       "title": "[생산기술원][초급] 회사의 생산성을 높이는 ChatGPT 활용법",
-      "hours": 14,
+      "hours": 7,
       "eligible": { "L1": true, "L2": false, "L3": false },
       "link": "https://lg.lms.sapsf.com/learning/user/deeplink.do?linkId=ITEM_DETAILS&componentID=18146&componentTypeID=Offline&revisionDate=1739239980000",
       "needsVerification": true
