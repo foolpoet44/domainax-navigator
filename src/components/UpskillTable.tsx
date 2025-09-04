@@ -41,7 +41,7 @@ export function UpskillTable({
                   <td className="p-4">
                     {condition.onlineHoursMin ? <span className="flex items-center space-x-2">
                         <CheckCircle className="h-4 w-4 text-green-600" />
-                        <span>{condition.onlineHoursMin}시간 이상</span>
+                        <span>{condition.level === "CDS" ? `${condition.onlineHoursMin}개 이상` : `${condition.onlineHoursMin}시간 이상`}</span>
                       </span> : <span className="text-muted-foreground">-</span>}
                   </td>
                   <td className="p-4">
